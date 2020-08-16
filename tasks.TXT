@@ -1,0 +1,38 @@
+
+Task№1----------------------------------------------------------------------------
+
+data=Article.objects.filter(publish_at__date__range=('2020-07-17','2020-08-17'))
+data
+<QuerySet [<Article: 1. Task1>, <Article: 2. task45>, <Article: 3. task3>, <Article: 4. task55>, <Article: 5. task145>, <Article: 6. dfgggf>, <Article: 7. task45fff>]>
+done=Article.objects.filter(status=3)
+done
+<QuerySet [<Article: 3. task3>, <Article: 6. dfgggf>]>
+data & done
+<QuerySet [<Article: 3. task3>, <Article: 6. dfgggf>]>
+
+
+
+Task№2--------------------------------------------------------------------------
+
+Article.objects.filter(status=1,types=2)
+<QuerySet [<Article: 5. task145>]>
+Article.objects.filter(status=2,types=3)
+<QuerySet [<Article: 2. task45>]>
+
+
+
+
+task№3--------------------------------------------------------------------------
+
+ts1=Article.objects.exclude(status=3)
+ts1
+<QuerySet [<Article: 1. Task1>, <Article: 2. task45>, <Article: 4. task55>, <Article: 5. task145>, <Article: 7. task45fff>]>
+ts2=Article.objects.filter(types=2)
+ts2
+<QuerySet [<Article: 3. task3>, <Article: 5. task145>]>
+ts1 & ts2
+<QuerySet [<Article: 5. task145>]>
+
+
+
+

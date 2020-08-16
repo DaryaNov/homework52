@@ -1,0 +1,232 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 1,
+  "fields": {
+    "description": "Task1",
+    "maxdescription": "blablablablablablablabla",
+    "status": 1,
+    "publish_at": "2020-08-13T11:47:57Z",
+    "updated_at": null,
+    "types": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 2,
+  "fields": {
+    "description": "task45",
+    "maxdescription": "English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.ffff",
+    "status": 2,
+    "publish_at": "2020-08-13T11:48:25Z",
+    "updated_at": "2020-08-16T21:13:49Z",
+    "types": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 3,
+  "fields": {
+    "description": "task3",
+    "maxdescription": "English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.",
+    "status": 3,
+    "publish_at": "2020-08-13T11:49:01Z",
+    "updated_at": "2020-08-16T21:14:26Z",
+    "types": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 4,
+  "fields": {
+    "description": "task55",
+    "maxdescription": "English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.",
+    "status": 1,
+    "publish_at": "2020-08-13T11:49:15Z",
+    "updated_at": null,
+    "types": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 5,
+  "fields": {
+    "description": "task145",
+    "maxdescription": "English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.",
+    "status": 1,
+    "publish_at": "2020-08-13T11:49:30Z",
+    "updated_at": "2020-08-16T21:13:31Z",
+    "types": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "description": "dfgggf",
+    "maxdescription": "English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.",
+    "status": 3,
+    "publish_at": "2020-08-13T11:49:50Z",
+    "updated_at": null,
+    "types": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "description": "task45fff",
+    "maxdescription": "texttextextextsdcfvhuvjiklcfffffffasdvfbgbvcx",
+    "status": 1,
+    "publish_at": "2020-08-04T00:00:00Z",
+    "updated_at": "2020-08-16T21:12:32Z",
+    "types": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 1,
+  "fields": {
+    "name": "task"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 2,
+  "fields": {
+    "name": "Bug"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 3,
+  "fields": {
+    "name": "Enhancement"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 1,
+  "fields": {
+    "name": "new"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 2,
+  "fields": {
+    "name": "in Progress"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 3,
+  "fields": {
+    "name": "Done"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$D4cu9StMi1ne$WVTRa0C/+H7NcYSUYRVvOrRzZPM+7aXxe6vWm2WHWR4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "dars",
+    "first_name": "",
+    "last_name": "",
+    "email": "sa@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-13T11:38:11.895Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$IGvZQnG7S7qx$7Mu17WOAtitQX/jc6ASTkNU1wQSkEBkoJit4DGvWOmE=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "dasha",
+    "first_name": "",
+    "last_name": "",
+    "email": "ss@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-13T11:40:20.681Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$rjhOjliumF7m$5yj2+MHhw4Ilslre8KmBHAbYJP1Wjfvj+skSQS43YZc=",
+    "last_login": "2020-08-13T11:45:51.764Z",
+    "is_superuser": true,
+    "username": "Darr",
+    "first_name": "",
+    "last_name": "",
+    "email": "dr@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-13T11:44:52.144Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$R6jMF01QW7FP$tol6s+HH8qKjuzjwinrK5aqBvbxbwTm3lREhem44MvQ=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Dass",
+    "first_name": "",
+    "last_name": "",
+    "email": "sd@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-16T21:03:25.340Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$V1MNzyysPks3$FqpbHOSqSL69ng45ZTbOCliMPRT21AxPghsGruO8j18=",
+    "last_login": "2020-08-16T21:12:28.974Z",
+    "is_superuser": true,
+    "username": "dsds",
+    "first_name": "",
+    "last_name": "",
+    "email": "d@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-16T21:11:11.113Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
